@@ -1,0 +1,36 @@
+.app-icon{
+    height: 60px;
+    margin: 20px;
+}
+
+#drive-icon, #mail-icon{
+    width: 65px;
+    margin-left: 10px;
+}
+
+.apps-panel{
+    height: 100%;
+    display: inline-block;
+}
+
+#searchbar{
+    width: 40%;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+#search-btn{
+    border-radius: 25px;
+}
+
+#apps-right{
+    float: right;
+}
+
+#apps-left{
+    float: left;
+}
+
+#bing{
+    display: inline-block;
+}

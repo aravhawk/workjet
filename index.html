@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workjet | Your Easy Work Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center><input placeholder="Search Google Drive" id="searchbar" type="text"><button id="search-btn" class="btn btn-primary" onclick="search()">Enter</button></center><hr>
+    <div class="btn btn-info apps-panel" id="apps-left">
+        <a href="https://docs.google.com/" target="_blank"><img class="app-icon" src="docs.png"><br></a>
+        <a href="https://slides.google.com/" target="_blank"><img class="app-icon" src="slides.png"><br></a>
+        <a href="https://sheets.google.com" target="_blank"><img class="app-icon" src="sheets.png"><br></a>
+        <a href="https://forms.google.com" target="_blank"><img class="app-icon" src="forms.png"><br></a>
+        <a href="https://drawings.google.com" target="_blank"><img class="app-icon" src="drawings.png"><br></a>
+        <a href="https://jamboard.google.com" target="_blank"><img class="app-icon" src="jamboard.png"><br></a>
+        <a href="https://drive.google.com" target="_blank"><img class="app-icon" id="drive-icon" src="drive.png"><br></a>
+    </div>
+    <div class="btn btn-info apps-panel" id="apps-right">
+        <a href="https://mail.google.com/" target="_blank"><img class="app-icon" id="mail-icon" src="gmail.png"><br></a>
+        <a href="https://calendar.google.com/" target="_blank"><img class="app-icon" src="calendar.png"><br></a>
+        <a href="https://meet.google.com" target="_blank"><img class="app-icon" src="meet.png"><br></a>
+        <a href="https://chat.google.com" target="_blank"><img class="app-icon" src="chat.png"><br></a>
+        <a href="https://finance.google.com" target="_blank"><img class="app-icon" src="finance.svg"><br></a>
+        <a href="https://contacts.google.com" target="_blank"><img class="app-icon" src="contacts.png"><br></a>
+        <a href="https://ads.google.com" target="_blank"><img class="app-icon" src="ads.png"><br></a>
+    </div>
+    <center><iframe id="bing" src="https://bing.com" width="86%" height="750px" frameborder="0"></iframe></center>
+    <script src="main.js"></script>
+</body>
+</html>
